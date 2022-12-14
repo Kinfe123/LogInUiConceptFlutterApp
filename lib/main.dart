@@ -51,7 +51,7 @@ class _HomeState extends State<Home> {
                         text: 'Hello There',
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
-                            fontSize: 40.0,
+                            fontSize: 46.0,
                             fontFamily: 'Po',
                             color: Colors.black45)),
                     TextSpan(
@@ -61,11 +61,13 @@ class _HomeState extends State<Home> {
                   ])),
                   Icon(
                     Icons.android,
+                    color: Colors.deepPurpleAccent,
+
                     size: 100,
                   ),
-                  SizedBox(
-                    height: 10,
-                  ),
+                  // SizedBox(
+                  //   height: 1,
+                  // ),
 
                   Text(
                     'We have created for you',
